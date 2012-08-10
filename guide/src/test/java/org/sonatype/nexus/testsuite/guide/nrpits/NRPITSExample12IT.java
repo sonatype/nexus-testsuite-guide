@@ -20,11 +20,11 @@ import org.sonatype.nexus.bundle.launcher.NexusBundleConfiguration;
 import org.sonatype.nexus.testsuite.support.NexusRunningParametrizedITSupport;
 import org.sonatype.sisu.goodies.common.Time;
 
-public class NRPITSExample11IT
+public class NRPITSExample12IT
     extends NexusRunningParametrizedITSupport
 {
 
-    public NRPITSExample11IT( final String nexusBundleCoordinates )
+    public NRPITSExample12IT( final String nexusBundleCoordinates )
     {
         super( nexusBundleCoordinates );
     }
@@ -38,13 +38,7 @@ public class NRPITSExample11IT
     @Override
     protected NexusBundleConfiguration configureNexus( final NexusBundleConfiguration configuration )
     {
-        return configuration
-            .addPlugins(
-                artifactResolver().resolvePluginFromDependencyManagement(
-                    "org.sonatype.nexus.nexus-testsuite-guide", "test-plugin"
-                )
-            )
-            .setStartTimeout( Time.minutes( 2 ).toSecondsI() )
-            .setLogLevel( "DEBUG" );
+        // TODO
+        return configuration;
     }
 }
