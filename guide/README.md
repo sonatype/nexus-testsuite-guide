@@ -25,7 +25,7 @@ NexusRunningParametrizedITSupport
 
 Extending this class will give you a running Nexus instance before the test starts and it will automatically shut it down when the test ends. The tests from such a class will be run multiple times, one for each Nexus version specified as parameter (and from here the Parametrized in the name).
 
-[See details about implementing such an integration test](guide/src/test/java/org/sonatype/nexus/testsuite/guide/l01/README.md)
+[See details about implementing such an integration test](guide/src/test/java/org/sonatype/nexus/testsuite/guide/nrpits/README.md)
 
 NexusParametrizedITSupport
 --------------------------
@@ -90,6 +90,9 @@ Direct reference to bundle
 
 Customising Nexus instance
 ==========================
+
+Specifying plugins to be installed
+----------------------------------
 
 Writing a Nexus plugin integration test
 =======================================

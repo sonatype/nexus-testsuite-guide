@@ -10,17 +10,27 @@
  * of Sonatype, Inc. Apache Maven is a trademark of the Apache Software Foundation. M2eclipse is a trademark of the
  * Eclipse Foundation. All other trademarks are the property of their respective owners.
  */
-package org.sonatype.nexus.testsuite.guide.l01;
+package org.sonatype.nexus.testsuite.guide.nrpits;
 
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.is;
+
+import org.junit.Test;
 import org.sonatype.nexus.testsuite.support.NexusRunningParametrizedITSupport;
 
-public class Lesson01IT
+public class NRPITSExample01IT
     extends NexusRunningParametrizedITSupport
 {
 
-    public Lesson01IT( final String nexusBundleCoordinates )
+    public NRPITSExample01IT( final String nexusBundleCoordinates )
     {
         super( nexusBundleCoordinates );
+    }
+
+    @Test
+    public void nexusIsRunning()
+    {
+        assertThat( nexus().isRunning(), is( true ) );
     }
 
 }
