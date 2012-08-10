@@ -10,40 +10,19 @@
  * of Sonatype, Inc. Apache Maven is a trademark of the Apache Software Foundation. M2eclipse is a trademark of the
  * Eclipse Foundation. All other trademarks are the property of their respective owners.
  */
-package org.sonatype.nexus.testsuite.guide.nrpits;
+package org.sonatype.nexus.testsuite.guide.nrits;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;
-import static org.sonatype.sisu.goodies.common.Varargs.$;
-
-import java.util.Collection;
 
 import org.junit.Test;
-import org.junit.runners.Parameterized;
-import org.sonatype.nexus.testsuite.support.NexusRunningParametrizedITSupport;
-import org.sonatype.nexus.testsuite.support.ParametersLoaders;
+import org.sonatype.nexus.testsuite.support.NexusRunningITSupport;
+import org.sonatype.nexus.testsuite.support.NexusStartAndStopStrategy;
 
-public class NRPITSExample09IT
-    extends NexusRunningParametrizedITSupport
+@NexusStartAndStopStrategy( NexusStartAndStopStrategy.Strategy.EACH_TEST )
+public class NRITSExample02IT
+    extends NexusRunningITSupport
 {
-
-    @Parameterized.Parameters
-    public static Collection<Object[]> hardcodedParameters()
-    {
-        return ParametersLoaders.firstAvailableTestParameters(
-            ParametersLoaders.systemTestParameters(),
-            ParametersLoaders.testParameters(
-                $(
-                    "org.sonatype.nexus:nexus-oss-webapp:zip:bundle:2.0"
-                )
-            )
-        ).load();
-    }
-
-    public NRPITSExample09IT( final String nexusBundleCoordinates )
-    {
-        super( nexusBundleCoordinates );
-    }
 
     @Test
     public void nexusIsRunning()
