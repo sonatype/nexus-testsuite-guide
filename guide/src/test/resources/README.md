@@ -7,7 +7,7 @@ Lets take an example:
 
     [
         [ "org.sonatype.nexus:nexus-oss-webapp:zip:bundle:2.0" ],
-        [ "org.sonatype.nexus:nexus-oss-webapp:zip:bundle:2.1" ],
+        [ "org.sonatype.nexus:nexus-oss-webapp:zip:bundle:2.1" ]
     ]
 
 In the above example, the parameters are Nexus bundle coordinates.
@@ -27,7 +27,7 @@ In that case the parameters file will look like ths:
 
     [
         [ "2.0", "org.sonatype.nexus:nexus-oss-webapp:zip:bundle:2.0" ],
-        [ "2.1", "org.sonatype.nexus:nexus-oss-webapp:zip:bundle:2.1" ],
+        [ "2.1", "org.sonatype.nexus:nexus-oss-webapp:zip:bundle:2.1" ]
     ]
 
 The matching constructor of your IT will be:
