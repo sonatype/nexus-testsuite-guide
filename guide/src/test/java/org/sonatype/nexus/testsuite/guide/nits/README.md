@@ -13,5 +13,10 @@ And how do I do that?
 You will have to get you hand on an instance of `NexusBundle` You can do that by `@Inject`-ing or by using a factory. Lets look at some examples:
 
 * [Injecting one NexusBundle](NITSExample02IT.java) - You will use this approach when the number of Nexus instances you need in your tests is finite, as in this case one.
-* [Injecting one NexusBundle](NITSExample03IT.java) - You will use this approach when the number of Nexus instances you need in your tests is finite, as in this case two of them.
+* [Injecting more NexusBundles](NITSExample03IT.java) - You will use this approach when the number of Nexus instances you need in your tests is finite, as in this case two of them.
 * [Injecting a factory](NITSExample04IT.java) - You will use this approach when tou want to create an unlimited number of Nexus instances.
+
+Can I configure the Nexus instance?
+-----------------------------------
+Yes. Before starting up Nexus you can do all sort of configuration via `nexus.getConfiguration()`. Take a look at [configuration explained](../nrpits/Configuration.md).
+[Here is an example](NITSExample05IT.java) on how change default log level of INFO to DEBUG.
