@@ -10,5 +10,5 @@ In this example you are inheriting from `NexusParametrizedITSupport` which will 
 
 What about those constructor parameters?
 ----------------------------------------
-Read details [here](Parameters.md).
+Read details [here](../nrpits/Parameters.md).
 
