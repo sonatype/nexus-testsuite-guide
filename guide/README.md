@@ -7,3 +7,5 @@ The following will guide you in writing Nexus Integration Tests:
 [Have a question?](guide/FAQ.md)
 
 [System properties?](guide/SystemProperties.md)
+
+[Injected properties?](guide/InjectedProperties.md)
