@@ -2,6 +2,7 @@ System Properties
 =================
 
 There are a set of system properties that can be set and which will affect the way integration tests are working.
+In addition to this properties, there are a set of [injected properties](InjectedProperties.md) that can be overridden by using system properties.
 
 it.test.log.level
 -----------------
