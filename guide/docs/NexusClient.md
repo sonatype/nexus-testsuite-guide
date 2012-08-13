@@ -9,9 +9,10 @@ Examples of such interactions would be:
 * plugin specific interactions: managing capabilities, seting up staging
 
 You will do all of this via a `NexusClient` accessible via `client()` method, as can be seen in this [example][nrpits-example-18].
+
 To partition Nexus functionality, related functionality pieces are grouped in **subsystems** as can be seen in `resolveArtifact` method of our [example][nrpits-example-18].
 
-Subsystems related to Nexus core functionality are directly available and those related to plugins are available only when your test project depends on the client module of that specific artifact.
+Subsystems related to Nexus core functionality are directly available and those related to plugins are available only when your test project depends on the client module of that specific plugin.
 In this [example][nrpits-example-19], test method `accessCapabilities` makes use of a subsystem named `Capabilities` that available because the test project depends on `org.sonatype.nexus.capabilities:nexus-capabilities-client:2.1` (see [pom][pom])
 
 
