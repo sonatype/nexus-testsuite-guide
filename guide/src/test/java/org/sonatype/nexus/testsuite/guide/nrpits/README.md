@@ -4,7 +4,7 @@ Extending NexusRunningParametrizedITSupport
 Extending this class will give you a running Nexus instance before the test starts and it will automatically shut it down when the test ends.
 The tests from such a class will be run multiple times, one for each Nexus version specified as parameter (and from here the Parametrized in the name).
 
-Lets start with the simple [example](NRPITSExample01IT.java).
+Lets start with the simple [example][nrpits-example-01].
 In this example you are inheriting from `NexusRunningParametrizedITSupport` which will give you a running clean Nexus before each test.
 The test `nexusIsRunning` is a just assering that fact.
 
@@ -19,11 +19,11 @@ There are two strategies:
 * `EACH_TEST` - will create one instance per test class
 * `EACH_METHOD` - (default) will create an instance before each test method
 
-Here is an [example](NRPITSExample02IT.java) of starting Nexus only once per class. Note the annotation on class level.
+Here is an [example][nrpits-example-02] of starting Nexus only once per class. Note the annotation on class level.
 
 What about those constructor parameters?
 ----------------------------------------
-Read details [here](../../../../../../../../../Parameters.md).
+Read details [here][parameters].
 
 But how do I get access to running Nexus?
 ----------------------------------------
@@ -31,4 +31,9 @@ To get access to running Nexus you will use the `nexus()` getter. This will give
 
 Can I configure the Nexus instance?
 -----------------------------------
-Yes. There is an configuration template method that is called before starting up Nexus you can do all sort of configuration. Take a look at [configuration explained](../../../../../../../../../Configuration.md).
+Yes. There is an configuration template method that is called before starting up Nexus you can do all sort of configuration. Take a look at [configuration explained][configuration].
+
+[nrpits-example-01]: NRPITSExample01IT.java
+[nrpits-example-02]: NRPITSExample02IT.java
+[configuration]: ../../../../../../../../../Configuration.md
+[parameters]: ../../../../../../../../../Parameters.md

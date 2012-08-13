@@ -3,7 +3,7 @@ Extending NexusRunningITSupport
 Extending this class will give you a running Nexus instance before the test starts and it will automatically shut it down when the test ends.
 The tests from such a class will be run only once, against a Nexus version you specified.
 
-Lets start with the simple [example](NRITSExample01IT.java).
+Lets start with the simple [example][nrits-example-01].
 In this example you are inheriting from `NexusRunningITSupport` which will give you a running clean Nexus before each test.
 The test `nexusIsRunning` is a just assering that fact.
 
@@ -18,7 +18,7 @@ There are two strategies:
 * `EACH_TEST` - will create one instance per test class
 * `EACH_METHOD` - (default) will create an instance before each test method
 
-Here is an [example](NRITSExample02IT.java) of starting Nexus only once per class. Note the annotation on class level.
+Here is an [example][nrits-example-02] of starting Nexus only once per class. Note the annotation on class level.
 
 But how do I get access to running Nexus?
 ----------------------------------------
@@ -26,5 +26,10 @@ To get access to running Nexus you will use the `nexus()` getter. This will give
 
 Can I configure the Nexus instance?
 -----------------------------------
-Yes. There is an configuration template method that is called before starting up Nexus you can do all sort of configuration. Take a look at [configuration explained](../../../../../../../../../Configuration.md).
-[Here is an example](NRITSExample03IT.java) on how change default log level of INFO to DEBUG.
+Yes. There is an configuration template method that is called before starting up Nexus you can do all sort of configuration. Take a look at [configuration explained][configuration].
+[Here is an example][nrits-example-03] on how change default log level of INFO to DEBUG.
+
+[nrits-example-01]: NRITSExample01IT.java
+[nrits-example-02]: NRITSExample02IT.java
+[nrits-example-03]: NRITSExample03IT.java
+[configuration]: ../../../../../../../../../Configuration.md

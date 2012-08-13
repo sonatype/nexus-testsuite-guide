@@ -1,7 +1,7 @@
 Parameters file explained
 =========================
 
-The parameters files are containing [JUnit 4](http://junit.org/junit/javadoc/4.4/org/junit/runners/Parameterized.html) input data for your integration tests. The choses solution is to specify them in a json format.
+The parameters files are containing [JUnit 4][junit-4] input data for your integration tests. The choses solution is to specify them in a json format.
 
 Lets take an example:
 
@@ -36,3 +36,5 @@ The matching constructor of your IT will be:
     {
         ...
     }
+
+[junit-4] http://junit.org/junit/javadoc/4.4/org/junit/runners/Parameterized.html
