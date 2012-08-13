@@ -35,4 +35,10 @@ public class NRPITSExample02IT
         assertThat( nexus().isRunning(), is( true ) );
     }
 
+    @Test
+    public void nexusIsStillRunning()
+    {
+        assertThat( nexus().isRunning(), is( true ) );
+    }
+
 }
