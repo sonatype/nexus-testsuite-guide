@@ -4,6 +4,8 @@ The following will guide you in writing Nexus Integration Tests:
 
 [Creating your integration tests](guide/docs/ITSupport.md)
 
+[Accessing Nexus](guide/docs/NexusClient.md)
+
 [Test Data](guide/docs/TestData.md)
 
 [Test Index](guide/docs/TestIndex.md)
