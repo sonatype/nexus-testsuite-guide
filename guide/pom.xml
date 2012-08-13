@@ -56,6 +56,13 @@
         <version>2.1</version>
         <type>nexus-plugin</type>
       </dependency>
+      <dependency>
+        <groupId>org.sonatype.nexus</groupId>
+        <artifactId>nexus-oss-webapp</artifactId>
+        <version>${nexus.version}</version>
+        <type>zip</type>
+        <classifier>bundle</classifier>
+      </dependency>
     </dependencies>
   </dependencyManagement>
 

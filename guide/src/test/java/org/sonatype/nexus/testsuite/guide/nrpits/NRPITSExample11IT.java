@@ -41,7 +41,7 @@ public class NRPITSExample11IT
         return configuration
             .addPlugins(
                 artifactResolver().resolvePluginFromDependencyManagement(
-                    "org.sonatype.nexus.nexus-testsuite-guide", "test-plugin"
+                    "org.sonatype.nexus.plugins", "nexus-capabilities-plugin"
                 )
             )
             .setStartTimeout( Time.minutes( 2 ).toSecondsI() )

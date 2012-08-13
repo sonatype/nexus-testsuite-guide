@@ -16,6 +16,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.is;
 import static org.hamcrest.Matchers.notNullValue;
+import static org.hamcrest.Matchers.nullValue;
 
 import org.junit.Test;
 import org.sonatype.nexus.client.core.NexusStatus;
@@ -46,10 +47,8 @@ public class NRPITSExample18IT
         final ResolveResponse resolved = client().getSubsystem( ArtifactMaven.class ).resolve(
             new ResolveRequest( "releases", "foo", "bar", "1.0" )
         );
-        assertThat( resolved, is( notNullValue() ) );
-        assertThat( resolved.getGroupId(), is( equalTo( "foo" ) ) );
-        assertThat( resolved.getArtifactId(), is( equalTo( "bar" ) ) );
-        assertThat( resolved.getVersion(), is( equalTo( "1.0" ) ) );
+        // we did not deployed such an artifact before so it should not exist
+        assertThat( resolved, is( nullValue() ) );
     }
 
 }

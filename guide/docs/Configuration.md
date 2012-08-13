@@ -9,6 +9,8 @@ This will [example][nrpits-example-11] some common configurations.
 Adding Nexus plugins
 --------------------
 
+
+
 Configure log level
 -------------------
 In case that you will want to make Nexus log at some other level then default (INFO), you can do so via `setLogLevel()`.
