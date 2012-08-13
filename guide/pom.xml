@@ -31,11 +31,32 @@
   <name>Nexus Testsuite Guide : Guide</name>
 
   <dependencies>
+
     <dependency>
       <groupId>org.sonatype.nexus</groupId>
       <artifactId>nexus-testsuite-support</artifactId>
       <version>${nexus.version}</version>
+      <scope>test</scope>
     </dependency>
+
+    <dependency>
+      <groupId>org.sonatype.nexus.capabilities</groupId>
+      <artifactId>nexus-capabilities-client</artifactId>
+      <version>2.1</version>
+      <scope>test</scope>
+    </dependency>
+
   </dependencies>
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.sonatype.nexus.plugins</groupId>
+        <artifactId>nexus-capabilities-plugin</artifactId>
+        <version>2.1</version>
+        <type>nexus-plugin</type>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
 
 </project>

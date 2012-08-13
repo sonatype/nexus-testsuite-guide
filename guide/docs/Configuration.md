@@ -34,6 +34,6 @@ In cases that you want to remotly debug Nexus instance you can enable it via `en
 This will take as arguments, the port to connect to and if Nexus should wait for a debugger to connect before it starts.
 In this [example][nrpits-example-13], debugging will be available on port `5005`, whithout waiting for debugger to connect.
 
-[nrpits-example-11]: src/test/java/org/sonatype/nexus/testsuite/guide/nrpits/NRPITSExample11IT.java
-[nrpits-example-12]: src/test/java/org/sonatype/nexus/testsuite/guide/nrpits/NRPITSExample12IT.java
-[nrpits-example-13]: src/test/java/org/sonatype/nexus/testsuite/guide/nrpits/NRPITSExample13IT.java
+[nrpits-example-11]: ../src/test/java/org/sonatype/nexus/testsuite/guide/nrpits/NRPITSExample11IT.java
+[nrpits-example-12]: ../src/test/java/org/sonatype/nexus/testsuite/guide/nrpits/NRPITSExample12IT.java
+[nrpits-example-13]: ../src/test/java/org/sonatype/nexus/testsuite/guide/nrpits/NRPITSExample13IT.java

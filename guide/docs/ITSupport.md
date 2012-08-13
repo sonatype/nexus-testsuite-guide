@@ -21,7 +21,7 @@ Extending this class will give you support for managing one or more Nexus instan
 Based on your testing needs, you will be able to create Nexus instances, start/stop them as you need.
 The tests from such a class will be run only once, against a Nexus version you specified.
 
-[NexusRunningParametrizedITSupport]: src/test/java/org/sonatype/nexus/testsuite/guide/nrpits/README.md
-[NexusParametrizedITSupport]: src/test/java/org/sonatype/nexus/testsuite/guide/npits/README.md
-[NexusRunningITSupport]: src/test/java/org/sonatype/nexus/testsuite/guide/nrits/README.md
-[NexusITSupport]: src/test/java/org/sonatype/nexus/testsuite/guide/nits/README.md
+[NexusRunningParametrizedITSupport]: ../src/test/java/org/sonatype/nexus/testsuite/guide/nrpits/README.md
+[NexusParametrizedITSupport]: ../src/test/java/org/sonatype/nexus/testsuite/guide/npits/README.md
+[NexusRunningITSupport]: ../src/test/java/org/sonatype/nexus/testsuite/guide/nrits/README.md
+[NexusITSupport]: ../src/test/java/org/sonatype/nexus/testsuite/guide/nits/README.md

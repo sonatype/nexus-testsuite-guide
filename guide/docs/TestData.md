@@ -19,10 +19,10 @@ Now, what file is copied, depends on you test method:
 * when `securityEnabled` will be run the [security-configuration.xml][nrpits-example-15-se] will be copied
 * when `securityDisabled` will be run the [security-configuration.xml][nrpits-example-15-sd] will be copied
 
-[nrpits-example-14]: src/test/java/org/sonatype/nexus/testsuite/guide/nrpits/NRPITSExample14IT.java
-[nrpits-example-15]: src/test/java/org/sonatype/nexus/testsuite/guide/nrpits/NRPITSExample15IT.java
-[nrpits-example-15-se]: src/test/it-resources/org/sonatype/nexus/testsuite/guide/nrpits/NRPITSExample15IT/anonymousEnabled/security-configuration.xml
-[nrpits-example-15-sd]: src/test/it-resources/org/sonatype/nexus/testsuite/guide/nrpits/NRPITSExample15IT/anonymousDisabled/security-configuration.xml
+[nrpits-example-14]: ../src/test/java/org/sonatype/nexus/testsuite/guide/nrpits/NRPITSExample14IT.java
+[nrpits-example-15]: ../src/test/java/org/sonatype/nexus/testsuite/guide/nrpits/NRPITSExample15IT.java
+[nrpits-example-15-se]: ../src/test/it-resources/org/sonatype/nexus/testsuite/guide/nrpits/NRPITSExample15IT/anonymousEnabled/security-configuration.xml
+[nrpits-example-15-sd]: ../src/test/it-resources/org/sonatype/nexus/testsuite/guide/nrpits/NRPITSExample15IT/anonymousDisabled/security-configuration.xml
 
 
 

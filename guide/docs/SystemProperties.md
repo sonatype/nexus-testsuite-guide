@@ -15,5 +15,5 @@ it.parameters
 
 Set this property to point to a parameters files that should override the parameters used by ITs. [Read][parameters-format] more about the format of parameters file.
 
-[parameters-format]: src/test/resources/README.md
+[parameters-format]: ../src/test/resources/README.md
 [injected-properties]: InjectedProperties.md

@@ -26,5 +26,5 @@ If your test needs a directory to store some test related files you should get s
 Test index will make sure that the returned directory will be unique per test method.
 In this [example][nrpits-example-17], the `downloads` directory created for `method1` will not colide with `downloads` directory created for `method2`.
 
-[nrpits-example-16]: src/test/java/org/sonatype/nexus/testsuite/guide/nrpits/NRPITSExample16IT.java
-[nrpits-example-17]: src/test/java/org/sonatype/nexus/testsuite/guide/nrpits/NRPITSExample17IT.java
+[nrpits-example-16]: ../src/test/java/org/sonatype/nexus/testsuite/guide/nrpits/NRPITSExample16IT.java
+[nrpits-example-17]: ../src/test/java/org/sonatype/nexus/testsuite/guide/nrpits/NRPITSExample17IT.java

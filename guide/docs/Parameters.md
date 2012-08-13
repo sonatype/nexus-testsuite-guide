@@ -26,13 +26,13 @@ This method will return the sets of parameters for your IT. How you will do that
 * [Using first available set of parameters][nrpits-example-09] - Will try to load parameters in the order specified. The first available one will be used. This approach serves the purpose of overriding the test specified parameters with ones specified via a system property. Any of the above explained methods can be combined/used.
 * [Using all available sets of parameters][nrpits-example-10] - Will try to load parameters from all specified sources. This approach serves the purpose of aggregating parameters from divers sources. Any of the above explained methods can be combined/used.
 
-[parameters-format]: src/test/resources/README.md
-[parameters-json]: src/test/resources/parameters.json
-[nrpits-example-03]: src/test/java/org/sonatype/nexus/testsuite/guide/nrpits/NRPITSExample03IT.java
-[nrpits-example-04]: src/test/java/org/sonatype/nexus/testsuite/guide/nrpits/NRPITSExample04IT.java
-[nrpits-example-05]: src/test/java/org/sonatype/nexus/testsuite/guide/nrpits/NRPITSExample05IT.java
-[nrpits-example-06]: src/test/java/org/sonatype/nexus/testsuite/guide/nrpits/NRPITSExample06IT.java
-[nrpits-example-07]: src/test/java/org/sonatype/nexus/testsuite/guide/nrpits/NRPITSExample07IT.java
-[nrpits-example-08]: src/test/java/org/sonatype/nexus/testsuite/guide/nrpits/NRPITSExample08IT.java
-[nrpits-example-09]: src/test/java/org/sonatype/nexus/testsuite/guide/nrpits/NRPITSExample09IT.java
-[nrpits-example-10]: src/test/java/org/sonatype/nexus/testsuite/guide/nrpits/NRPITSExample10IT.java
+[parameters-format]: ../src/test/resources/README.md
+[parameters-json]: ../src/test/resources/parameters.json
+[nrpits-example-03]: ../src/test/java/org/sonatype/nexus/testsuite/guide/nrpits/NRPITSExample03IT.java
+[nrpits-example-04]: ../src/test/java/org/sonatype/nexus/testsuite/guide/nrpits/NRPITSExample04IT.java
+[nrpits-example-05]: ../src/test/java/org/sonatype/nexus/testsuite/guide/nrpits/NRPITSExample05IT.java
+[nrpits-example-06]: ../src/test/java/org/sonatype/nexus/testsuite/guide/nrpits/NRPITSExample06IT.java
+[nrpits-example-07]: ../src/test/java/org/sonatype/nexus/testsuite/guide/nrpits/NRPITSExample07IT.java
+[nrpits-example-08]: ../src/test/java/org/sonatype/nexus/testsuite/guide/nrpits/NRPITSExample08IT.java
+[nrpits-example-09]: ../src/test/java/org/sonatype/nexus/testsuite/guide/nrpits/NRPITSExample09IT.java
+[nrpits-example-10]: ../src/test/java/org/sonatype/nexus/testsuite/guide/nrpits/NRPITSExample10IT.java

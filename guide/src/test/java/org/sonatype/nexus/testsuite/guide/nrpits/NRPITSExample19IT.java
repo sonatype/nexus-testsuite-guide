@@ -12,28 +12,42 @@
  */
 package org.sonatype.nexus.testsuite.guide.nrpits;
 
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.hasSize;
+
+import java.util.List;
+
 import org.junit.Test;
+import org.sonatype.nexus.bundle.launcher.NexusBundleConfiguration;
+import org.sonatype.nexus.capabilities.client.Capabilities;
+import org.sonatype.nexus.plugins.capabilities.internal.rest.dto.CapabilityListItemResource;
 import org.sonatype.nexus.testsuite.support.NexusRunningParametrizedITSupport;
 
-public class NRPITSExample17IT
+public class NRPITSExample19IT
     extends NexusRunningParametrizedITSupport
 {
 
-    public NRPITSExample17IT( final String nexusBundleCoordinates )
+    public NRPITSExample19IT( final String nexusBundleCoordinates )
     {
         super( nexusBundleCoordinates );
     }
 
     @Test
-    public void method01()
+    public void accessCapabilities()
     {
-        testIndex().getDirectory( "downloads" );
+        final List<CapabilityListItemResource> allCapabilities = client().getSubsystem( Capabilities.class ).list();
+        assertThat( allCapabilities, hasSize( 0 ) );
     }
 
-    @Test
-    public void method02()
+    @Override
+    protected NexusBundleConfiguration configureNexus( final NexusBundleConfiguration configuration )
     {
-        testIndex().getDirectory( "downloads" );
+        return configuration
+            .addPlugins(
+                artifactResolver().resolvePluginFromDependencyManagement(
+                    "org.sonatype.nexus.plugins", "nexus-capabilities-plugin"
+                )
+            );
     }
 
 }
