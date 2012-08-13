@@ -2,7 +2,7 @@ Parameters explained
 ====================
 
 The constructor parameter(s), in this case just one `nexusBundleCoordinates` is provided via JUnit `Parameterized.Parameters` support.
-For a class that uses the default parameters resolution, like in this example, the parameters are loaded from a file named `paramerers.json` that will be searched in classpath. [Here is](../../../../../../../resources/parameters.json) the one used in our example. [Read more][parameters] about its format.
+For a class that uses the default parameters resolution, like in this example, the parameters are loaded from a file named `paramerers.json` that will be searched in classpath. [Here is](src/test/resources/parameters.json) the one used in our example. [Read more][parameters] about its format.
 
 Can I customize they way parameters are looked up?
 --------------------------------------------------
@@ -26,4 +26,4 @@ This method will return the sets of parameters for your IT. How you will do that
 * [Using first available set of parameters](NRPITSExample09IT.java) - Will try to load parameters in the order specified. The first available one will be used. This approach serves the purpose of overriding the test specified parameters with ones specified via a system property. Any of the above explained methods can be combined/used.
 * [Using all available sets of parameters](NRPITSExample10IT.java) - Will try to load parameters from all specified sources. This approach serves the purpose of aggregating parameters from divers sources. Any of the above explained methods can be combined/used.
 
-[parameters]: ../../../../../../../resources/README.md
+[parameters]: src/test/resources/README.md
