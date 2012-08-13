@@ -26,4 +26,4 @@ Yes. Before starting up Nexus you can do all sort of configuration via `nexus.ge
 [nits-example-03] NITSExample03IT.java
 [nits-example-04] NITSExample04IT.java
 [nits-example-05] NITSExample05IT.java
-[configuration]: ../../../../../../../../../Configuration.md
+[configuration]: ../../../../../../../../../docs/Configuration.md

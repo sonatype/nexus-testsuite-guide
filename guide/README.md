@@ -1,15 +1,15 @@
 The following will guide you in writing Nexus Integration Tests:
 
-[Prepare you project](guide/Setup.md)
+[Prepare you project](guide/docs/Setup.md)
 
-[Creating your integration tests](guide/ITSupport.md)
+[Creating your integration tests](guide/docs/ITSupport.md)
 
-[Test Data](guide/TestData.md)
+[Test Data](guide/docs/TestData.md)
 
-[Test Index](guide/TestIndex.md)
+[Test Index](guide/docs/TestIndex.md)
 
-[Have a question?](guide/FAQ.md)
+[Have a question?](guide/docs/FAQ.md)
 
-[System properties](guide/SystemProperties.md)
+[System properties](guide/docs/SystemProperties.md)
 
-[Injected properties](guide/InjectedProperties.md)
+[Injected properties](guide/docs/InjectedProperties.md)

@@ -32,4 +32,4 @@ Yes. There is an configuration template method that is called before starting up
 [nrits-example-01]: NRITSExample01IT.java
 [nrits-example-02]: NRITSExample02IT.java
 [nrits-example-03]: NRITSExample03IT.java
-[configuration]: ../../../../../../../../../Configuration.md
+[configuration]: ../../../../../../../../../docs/Configuration.md

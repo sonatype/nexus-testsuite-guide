@@ -35,5 +35,5 @@ Yes. There is an configuration template method that is called before starting up
 
 [nrpits-example-01]: NRPITSExample01IT.java
 [nrpits-example-02]: NRPITSExample02IT.java
-[configuration]: ../../../../../../../../../Configuration.md
-[parameters]: ../../../../../../../../../Parameters.md
+[configuration]: ../../../../../../../../../docs/Configuration.md
+[parameters]: ../../../../../../../../../docs/Parameters.md

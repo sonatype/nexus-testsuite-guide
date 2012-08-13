@@ -31,5 +31,5 @@ Yes. Before starting up Nexus you can do all sort of configuration via `nexus.ge
 [npits-example-03]: NPITSExample03IT.java
 [npits-example-04]: NPITSExample04IT.java
 [npits-example-05]: NPITSExample05IT.java
-[configuration]: ../../../../../../../../../Configuration.md
-[parameters]: ../../../../../../../../../Parameters.md
+[configuration]: ../../../../../../../../../docs/Configuration.md
+[parameters]: ../../../../../../../../../docs/Parameters.md
