@@ -1,0 +1,1 @@
+it-resources/org/sonatype/nexus/testsuite/guide/nrpits/NRPITSExample14IT/fromMethod
