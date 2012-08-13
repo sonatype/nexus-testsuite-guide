@@ -13,4 +13,4 @@ By default, without setting this value, Nexus will log at INFO level.
 it.parameters
 -------------
 
-Set this property to point to a parameters files that should override the parameters used by ITs. [Read](src/test/java/org/sonatype/nexus/testsuite/guide/nrpits/Parameters.md) more about the format of parameters file.
+Set this property to point to a parameters files that should override the parameters used by ITs. [Read](Parameters.md) more about the format of parameters file.

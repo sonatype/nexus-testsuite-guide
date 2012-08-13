@@ -2,7 +2,7 @@ Injected properties
 -------------------
 
 There are a set of Sisu read properties which will affect the way integration tests are working.
-This properties will be read from a file named `injected-test.properties` available in classpath. You will usually place such a file in `src/test` resources directory (or `src/test/filtered-resources if your project is setup to filter resources).
+This properties will be read from a file named `injected-test.properties` available in classpath. You will usually place such a file in `src/test/resources` directory (or `src/test/filtered-resources` if your project is setup to filter resources).
 This properties can be overridden using system properties with same name.
 
 nexus.launcher.startTimeout

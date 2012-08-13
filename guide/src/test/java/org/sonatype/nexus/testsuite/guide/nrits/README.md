@@ -26,5 +26,5 @@ To get access to running Nexus you will use the `nexus()` getter. This will give
 
 Can I configure the Nexus instance?
 -----------------------------------
-Yes. There is an configuration template method that is called before starting up Nexus you can do all sort of configuration. Take a look at [configuration explained](../nrpits/Configuration.md).
+Yes. There is an configuration template method that is called before starting up Nexus you can do all sort of configuration. Take a look at [configuration explained](../../../../../../../../../Configuration.md).
 [Here is an example](NRITSExample03IT.java) on how change default log level of INFO to DEBUG.

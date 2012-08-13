@@ -23,7 +23,7 @@ Here is an [example](NRPITSExample02IT.java) of starting Nexus only once per cla
 
 What about those constructor parameters?
 ----------------------------------------
-Read details [here](Parameters.md).
+Read details [here](../../../../../../../../../Parameters.md).
 
 But how do I get access to running Nexus?
 ----------------------------------------
@@ -31,4 +31,4 @@ To get access to running Nexus you will use the `nexus()` getter. This will give
 
 Can I configure the Nexus instance?
 -----------------------------------
-Yes. There is an configuration template method that is called before starting up Nexus you can do all sort of configuration. Take a look at [configuration explained](../nrpits/Configuration.md).
+Yes. There is an configuration template method that is called before starting up Nexus you can do all sort of configuration. Take a look at [configuration explained](../../../../../../../../../Configuration.md).

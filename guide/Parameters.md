@@ -25,3 +25,5 @@ This method will return the sets of parameters for your IT. How you will do that
 * [Using a default system property](NRPITSExample08IT.java) - Will look up a system property named `it.parameters`. The value of that system property should point to a parameters file that will be loaded and the test will be run as many sets as found in that file. [Read more][parameters] about its format.
 * [Using first available set of parameters](NRPITSExample09IT.java) - Will try to load parameters in the order specified. The first available one will be used. This approach serves the purpose of overriding the test specified parameters with ones specified via a system property. Any of the above explained methods can be combined/used.
 * [Using all available sets of parameters](NRPITSExample10IT.java) - Will try to load parameters from all specified sources. This approach serves the purpose of aggregating parameters from divers sources. Any of the above explained methods can be combined/used.
+
+[parameters]: ../../../../../../../resources/README.md

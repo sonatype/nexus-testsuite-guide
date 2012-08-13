@@ -18,5 +18,5 @@ You will have to get you hand on an instance of `NexusBundle` You can do that by
 
 Can I configure the Nexus instance?
 -----------------------------------
-Yes. Before starting up Nexus you can do all sort of configuration via `nexus.getConfiguration()`. Take a look at [configuration explained](../nrpits/Configuration.md).
+Yes. Before starting up Nexus you can do all sort of configuration via `nexus.getConfiguration()`. Take a look at [configuration explained](../../../../../../../../../Configuration.md).
 [Here is an example](NITSExample05IT.java) on how change default log level of INFO to DEBUG.

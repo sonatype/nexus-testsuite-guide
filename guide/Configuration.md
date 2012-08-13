@@ -23,7 +23,6 @@ Advanced configuration
 
 The following configuration options are not a very common case.
 
-
 Overlays
 --------
 Overlays are ways to perform additional tasks on the bundle prepared for Nexus. As for example copying additional files, changing some files, ...
