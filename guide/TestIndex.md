@@ -14,7 +14,7 @@ You can access the generated index at `target/its/index.xml`.
 Recording additional information
 --------------------------------
 
-There ar ethree type of informations you can record about your test:
+There are three type of informations you can record about your test:
 * plain data - see `recordInfo` method in our [example][nrpits-example-16]
 * relative links to files - see `recordRelativeLinks` method in our [example][nrpits-example-16]
 * absolute links - see `recordAbsoluteLink` method in our [example][nrpits-example-16]
