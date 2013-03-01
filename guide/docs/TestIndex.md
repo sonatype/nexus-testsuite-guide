@@ -2,7 +2,7 @@ Test Index
 ==========
 
 The scope of test index is to:
-* give you an unique directory per test method so your tests do not colide with each other. This unique directory is also used as a home of the nexus instance(s) use dby your tests
+* give you an unique directory per test method so your tests do not colide with each other. This unique directory is also used as a home of the nexus instance(s) used by your tests
 * allow recording of additional information about your test. Examples of such info woul be links to nexus log file or the time it took to boot nexus.
 * provide an overview of all integrations tests
 

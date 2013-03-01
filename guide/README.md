@@ -1,6 +1,6 @@
 The following will guide you in writing Nexus Integration Tests:
 
-[Prepare you project](guide/docs/Setup.md)
+[Prepare your project](guide/docs/Setup.md)
 
 [Creating your integration tests](guide/docs/ITSupport.md)
 
