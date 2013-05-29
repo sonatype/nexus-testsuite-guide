@@ -1,7 +1,7 @@
 Parameters file explained
 =========================
 
-The parameters files are containing [JUnit 4][junit-4] input data for your integration tests. The choses solution is to specify them in a json format.
+The parameters files are containing [JUnit 4][junit-4] input data for your integration tests. The chosen solution is to specify them in a json format.
 
 Lets take an example:
 
